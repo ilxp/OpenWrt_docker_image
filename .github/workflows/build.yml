@@ -1,11 +1,12 @@
 name: Build OpenWrt Docker x86-64 image
 
 on:
-  push:
-    branches:
-      - master
-    paths:
-      - ".github/workflows/build.yml"
+  workflow_dispatch:
+  #schedule:
+  # - cron: '35 12 * * SAT'
+  #watch:
+  # types: [started]
+      
 
 env:
   FIRMWARE_URL: "https://downloads.openwrt.org/releases/23.05.0-rc4/targets/x86/64/openwrt-23.05.0-rc4-x86-64-generic-squashfs-combined.img.gz"

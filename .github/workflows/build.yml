@@ -8,9 +8,9 @@ on:
       - ".github/workflows/build.yml"
 
 env:
-  FIRMWARE_URL: "https://downloads.openwrt.org/releases/19.07.2/targets/x86/64/openwrt-19.07.2-x86-64-generic-rootfs.tar.gz"
-  REPOSITORY: crazygit/openwrt-x86-64
-  TAG: 19.07.2
+  FIRMWARE_URL: "https://downloads.openwrt.org/releases/23.05.0-rc4/targets/x86/64/openwrt-23.05.0-rc4-x86-64-generic-squashfs-combined.img.gz"
+  REPOSITORY: ilxp/OpenWrt_docker_image
+  TAG: 23.05.0-rc4
 
 jobs:
   build:
@@ -25,7 +25,7 @@ jobs:
           wget $FIRMWARE_URL -O openwrt.tar.gz
 
       - name: Publish to Registry
-        uses: elgohr/Publish-Docker-Github-Action@master
+        uses: elgohr/Publish-Docker-Github-Action@main
         env:
           FIRMWARE: openwrt.tar.gz
         with:

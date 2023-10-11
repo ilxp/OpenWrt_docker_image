@@ -9,8 +9,8 @@ on:
       
 
 env:
-  FIRMWARE_URL: "https://downloads.openwrt.org/releases/23.05.0-rc4/targets/x86/64/openwrt-23.05.0-rc4-x86-64-generic-squashfs-combined.img.gz"
-  REPOSITORY: ilxp/openwrt_docker  #docker-hub中的用户名以及仓库
+  FIRMWARE_URL: "https://downloads.openwrt.org/releases/23.05.0-rc4/targets/x86/64/openwrt-23.05.0-rc4-x86-64-generic-squashfs-rootfs.img.gz"
+  REPOSITORY: ilxp/openwrt-docker  #docker-hub中的用户名以及仓库
   TAG: 23.05.0-rc4
 
 jobs:

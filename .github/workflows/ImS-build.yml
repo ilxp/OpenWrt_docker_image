@@ -9,7 +9,7 @@ on:
       
 
 env:
-  FIRMWARE_URL: "https://github.com/iwrt/docker-image/releases/download/ImS/20231019-iWRT-ImS-Series-x86-64-generic-squashfs-rootfs.img.gz"
+  FIRMWARE_URL: "https://github.com/iwrt/docker-image/releases/download/ImS/20231019-iWRT-ImS-Series-x86-64-generic-rootfs.tar.gz"
   REPOSITORY: iwrt/openwrt-docker  #docker-hub中的用户名以及仓库
   TAG: ImS-x64
 

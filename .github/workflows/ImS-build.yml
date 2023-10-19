@@ -1,4 +1,4 @@
-name: OpR Docker x86-64 image
+name: ImS Docker x86-64 image
 
 on:
   workflow_dispatch:
@@ -9,9 +9,9 @@ on:
       
 
 env:
-  FIRMWARE_URL: "https://github.com/iwrt/iwrt-docker/releases/download/OpR/20231019-iWRT-OpR23.05.0-x86-64-generic-squashfs-rootfs.img.gz"
+  FIRMWARE_URL: "https://github.com/iwrt/iwrt-docker/releases/download/ImS/20231019-iWRT-ImS-Series-x86-64-generic-squashfs-rootfs.img.gz"
   REPOSITORY: iwrt/openwrt-docker  #docker-hub中的用户名以及仓库
-  TAG: OpR-x86-64
+  TAG: ImS-x64
 
 jobs:
   build:

@@ -1,4 +1,4 @@
-name: Build LeS Docker x86-64 image
+name: LeS Docker x86-64 image
 
 on:
   workflow_dispatch:

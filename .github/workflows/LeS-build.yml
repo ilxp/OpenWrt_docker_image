@@ -9,7 +9,7 @@ on:
       
 
 env:
-  FIRMWARE_URL: "https://github.com/iwrt/iWRT-release/releases/download/LeS/20231019-iWRT-LeS-Series-x86-64-generic-squashfs-rootfs.img.gz"
+  FIRMWARE_URL: "https://github.com/iwrt/iwrt-docker/releases/download/LeS/20231019-iWRT-LeS-Series-x86-64-generic-squashfs-rootfs.img.gz"
   REPOSITORY: iwrt/openwrt-docker  #docker-hub中的用户名以及仓库
   TAG: LeS-x86-64
 
